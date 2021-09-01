@@ -1,0 +1,13 @@
+*.sqlite3
+__pycache__/
+*.env
+google_transit_dublinbus/
+*.out
+*.log
+*.csv
+*.txt
+model_output/
+.DS_Store
+.vscode
+data/
+db/

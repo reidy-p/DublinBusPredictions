@@ -1,0 +1,25 @@
+.header {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.options {
+   right: 17.5px;
+   position: absolute;
+   top: 11px;
+   z-index: 1;
+}
+.options > svg {
+   cursor: pointer;
+}
+.searchbar_container {
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.pagination {
+   margin-top: 15px;
+}

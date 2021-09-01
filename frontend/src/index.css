@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* To take out google logo*/
+.gm-style-cc {
+  display: none;
+}
+
+/* Styles for the comboboxes */
+[data-reach-combobox-option] {
+  padding: 10px 5px !important;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+[data-reach-combobox-option]:hover,
+[data-reach-combobox-option][aria-selected="true"] {
+  background-color: transparent !important;
+  opacity: 0.8;
+}

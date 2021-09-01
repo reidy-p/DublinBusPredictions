@@ -1,0 +1,37 @@
+.avatar{
+  background-color: rgb(182, 53, 92)!important;
+}
+.pointer {
+  cursor: pointer;
+}
+.popover_wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.popover_header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
+}
+.popover_items {
+  margin-left: 15px;
+}
+.popover_items > a  {
+  text-decoration: none;
+}
+.popover_items > a > button {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.popover_items > h4 {
+  margin: 2px 0px;
+}
+.popover_logout_wrapper {
+  width: 90%;
+  padding: 10px;
+  align-self: center;
+}

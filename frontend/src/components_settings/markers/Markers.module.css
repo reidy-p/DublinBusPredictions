@@ -1,0 +1,23 @@
+.switch_container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
+.switch_container > h4 {
+   text-transform: capitalize;
+}
+.pagination {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+.action_button {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}

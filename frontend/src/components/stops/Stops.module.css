@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.searchbar {
+  width: 70%;
+}
+.submit_search {
+  width: 100%;
+}
+.stop_bus_times_title {
+  align-self: flex-start;
+}
+.options {
+  right: 17.5px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+}
+.options > svg {
+  cursor: pointer;
+}

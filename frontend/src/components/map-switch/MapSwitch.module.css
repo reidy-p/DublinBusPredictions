@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 25px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+}
+.container > div {
+  height: 60px;
+  border-radius: 25px;
+  padding:0;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container > div > p {
+  display: none;
+}
+.container > div > svg {
+  margin-right: 0px;
+}
+
+/* Display the switcher on the right side when the screen width is 
+between 600px-900px */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: row;
+    height: auto;  
+  }
+  .container > div {
+    padding: 0px 20px;
+    height: 35px;
+    width: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .container > div > p {
+    display: block;
+  }
+  .container > div > svg {
+    margin-right: 5px;
+  }
+}
+
